@@ -1,0 +1,117 @@
+============================= Hot keys
+-------------------------------------------------------
+1 |   Shift + Ctrl + P      |  command pallet
+-------------------------------------------------------
+2 |   Ctrl + p              |  search 
+-------------------------------------------------------
+3 |   Ctrl +  ,             |  settings
+-------------------------------------------------------
+4 |   Shift + Ctrl + E      |  files explorer
+-------------------------------------------------------
+5 |   Shift + Ctrl + F      |  panel for search files
+-------------------------------------------------------
+6 |   Shift + Ctrl + X      |  panel for extensions
+-------------------------------------------------------
+7 |   Ctrl + K,  S          |  see keybinding
+-------------------------------------------------------
+
+=========================================
+
+Download visual studio code
+    https://code.visualstudio.com/
+
+************************** Устанавливаем и выбираем тему  ************************** 
+Shift + Ctrl + X 
+
+Material Theme
+Night Owl
+Min Theme
+
+----------- иконки
+Material Icon Theme
+по желанию VSCode Great Icons
+
+
+=============== Как выбрать тему 
+     Shift + Ctrl + P
+В строке команды начать набирать слово theme, 
+и когда появится  Preferences Color Theme выбрать этот пункт
+Появится список тем
+
+
+===============  Установка иконок 
+	Shift + Ctrl + P	
+В строке команды начать набирать слово icon, 
+и когда появится  Preferences File Icon Theme  выбрать этот пункт
+Появится список иконок
+
+
+******************** Устанавливаем расширения ************************** 
+Shift + Ctrl + X 
+
+Close HTML/XML tag
+Auto Close Tag
+Auto Rename Tag
+Highlight Matching Tag
+Live Server
+Prettier - Code formatter
+ESLint  (https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+snippet-creator (https://marketplace.visualstudio.com/items?itemName=nikitaKunevich.snippet-creator)
+
+
+******************** Пользовательский настроечный файл ******************* 
+Это JSON файл, в который сохраняются все пользовательские настройки 
+!!!! Все строковые настройки указыватся в двойных кавычках ""
+-------------- 2 способа открыть пользовательский json файл
+
+1. Ctrl + ,  
+ Вверху панели найти и нажать иконку 
+ Open Settings (JSON)
+
+2. Shift + Ctrl + P
+В строке команды начать набирать слово json  
+и когда появится   Preferences Open Settings (JSON) 
+выбрать этот пункт
+--------------------------
+В файле уже увидим установленные шрифты, тему 
+
+Рекомендованные настройки 
+
+    "window.zoomLevel": 1,
+    "editor.mouseWheelZoom": true,
+    "editor.formatOnSave": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "emmet.triggerExpansionOnTab": true,
+    "explorer.openEditors.visible": 0,
+    "workbench.activityBar.visible": false,
+    "editor.tabCompletion": "on", 
+    "breadcrumbs.enabled": false
+    
+
+После установки этих настроек будут скрыты explorer, activity bar, breadcrumbs
+
+******************** Пользовательские key binding ******************* 
+Ctrl + K,  S
+Откроется настройка key binding.
+
+---- В поиске набираем  
+       toggle activityBar
+и присваиваем значение        
+    Alt + 2
+
+------ В поиске набираем Toggle sideBar  Visibility 
+и присваиваем значение         
+     Alt + 1
+
+------ В поиске набираем  Copy Line Down 
+и присваиваем значение         
+     Ctrl + D
+
+
+************************** Смена положения explorer  ************************** 
+Shift + Ctrl + P 
+набираем слово toggle и выбираем пункт 
+    View: Toggle Side Bar Position
+    
+
+    
